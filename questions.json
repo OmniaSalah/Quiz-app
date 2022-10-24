@@ -1,0 +1,44 @@
+[
+    {
+        "question":"why we use &lt;br&gt;",
+        "answer_1":"just word",
+        "answer_2":"un useful word",
+        "answer_3":"to make break line",
+        "right_answer":"to make break line"
+    },
+    {
+        "question":"what is the extension of a HTML file",
+        "answer_1":".cpp",
+        "answer_2":".js",
+        "answer_3":".html",
+        "right_answer":".html"
+    },
+    {
+        "question":"what is the extension of a C++ file",
+        "answer_1":".cpp",
+        "answer_2":".js",
+        "answer_3":".html",
+        "right_answer":".cpp"
+    },
+    {
+        "question":"what is the extension of a JavaScript file",
+        "answer_1":".cpp",
+        "answer_2":".js",
+        "answer_3":".html",
+        "right_answer":".js"
+    },
+    {
+        "question":"what is the extension of a CSS file",
+        "answer_1":".css",
+        "answer_2":".js",
+        "answer_3":".html",
+        "right_answer":".css"
+    },
+    {
+        "question":"where we should the link of css",
+        "answer_1":"in the head of the html page",
+        "answer_2":"in the body of the html page",
+        "answer_3":"we did't should it",
+        "right_answer":"in the head of the html page"
+    }
+]

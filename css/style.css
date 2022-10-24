@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+}
+
+.quizApp .quiz{
+    width: 80%;
+    margin: 0 auto;
+    background-color: beige;
+    padding: 20px;
+}
+.quizApp .quiz .innerQuiz .head{
+    background-color: white;
+    display: flex;
+    padding: 10px;
+}
+.quizApp .quiz .innerQuiz .head .Qcount{
+    flex: 1;
+    text-align: right;
+}
+/*  */
+.quizApp .quiz .innerQuiz .quiz_body{
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.quizApp .quiz .innerQuiz .quiz_body .answer_quiz{
+    background-color: beige;
+    padding: 10px 0;
+}
+.quizApp .quiz .innerQuiz .quiz_body .answer_quiz .answer{
+    padding: 10px;
+}
+.quizApp .quiz .innerQuiz .quiz_body .answer_quiz .answer:not(:last-child){
+   border-bottom: 1px solid rgb(202, 201, 201);
+}
+/*  */
+.quizApp .quiz .innerQuiz .btn{
+    width: 100%;
+    padding: 10px 0;
+    color: white;
+    font-size: 18px;
+    background-color: brown;
+    border: none;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+/* div bullets */
+.quizApp .quiz .innerQuiz .bullets{
+    display: flex;
+    background-color: white;
+    padding: 10px;
+}
+.quizApp .quiz .innerQuiz .bullets .bullets_spans .bullet{
+   width: 15px;
+   height: 15px;
+   border-radius: 50%;
+   background-color: gray;
+   display: inline-block;
+   margin: 0 2px;
+}
+.on{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: brown;
+    display: inline-block;
+    margin: 0 2px;
+}
+.quizApp .quiz .innerQuiz .bullets .bullets_timer{
+    flex: 1;
+    text-align: right;
+}
